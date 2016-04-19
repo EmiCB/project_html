@@ -1,0 +1,74 @@
+/* JS Heading */
+
+
+/* Navigation */
+ul {
+	margin: 5px 0 15px 0;
+	padding: 10px 0 20px 0;
+	list-style-type: none;
+	font-size: 15px;
+}
+li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+li a {
+	margin: 0 1em 0 0;
+	padding: 5px 0;
+	text-decoration: none;
+	color: black;
+}
+li a:hover {
+	text-decoration: underline;
+}
+
+/* Body */
+body{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    -webkit-animation-name: example1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example1;
+	animation-duration: 4s;
+	-webkit-animation-name: example2; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example2;
+    animation-duration: 4s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example1 {
+    from {background-color: red;}
+	to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    from {background-color: yellow;}
+	to {background-color: blue;}
+}
+@-webkit-keyframes example2 {
+    from {background-color: red;}
+	to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    from {background-color: yellow;}
+	to {background-color: blue;}
+}
+div.main{
+	margin-top: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 10 px;
+	padding-left: 50px;
+	padding-right 50px;
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+div.content{
+	
+}

@@ -1,0 +1,135 @@
+/* JS Heading */
+/* See bubbles.js or hearts.js and name.js */
+
+/* Navigation */
+#nav ul {
+	margin: 5px 0 15px 0;
+	padding: 10px 0 20px 0;
+	list-style-type: none;
+	font-size: 25px;
+	border-bottom: solid black 1px;
+}
+#nav li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+#nav li a {
+	margin: 0 1em 0 0;
+	padding: 5px 0;
+	text-decoration: none;
+	color: black;
+}
+#nav li a:hover:not(.active) {
+    text-decoration: underline;
+}
+#nav a.selected:link, a.selected:visited {
+	font-weight: bold;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+/* Body */
+body{
+	background: blue; /* For browsers that do not support gradients */ 
+    background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Fx 3.6 to 15 */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
+
+	/*
+	background: -webkit-linear-gradient(left, rgba(255, 0, 0, .85), rgba(255, 153, 0, .85), rgba(255, 255, 0, .85), rgba(0, 255, 0, .85), rgba(0, 0, 255, .85), rgba(75, 0, 130, .85), rgba(102, 51, 153, .85)); /* For Safari 5.1 to 6.0 (Add end comment tag after this)
+	
+    background: -o-linear-gradient(left, rgba(255, 0, 0, .5), rgba(255, 153, 0, .85), rgba(255, 255, 0, .85), rgba(0, 255, 0, .85), rgba(0, 0, 255, .85), rgba(75, 0, 130, .85), rgba(102, 51, 153, .85)); /* For Opera 11.1 to 12.0 (Add end comment tag after this)
+	
+    background: -moz-linear-gradient(left, rgba(255, 0, 0, .85), rgba(255, 153, 0, .85), rgba(255, 255, 0, .85), rgba(0, 255, 0, .85), rgba(0, 0, 255, .85), rgba(75, 0, 130, .85), rgba(102, 51, 153, .5)); /* For Fx 3.6 to 15 (Add end comment tag after this)
+	
+    background: linear-gradient(to right, rgba(255, 0, 0, .85), rgba(255, 153, 0, .85), rgba(255, 255, 0, .85), rgba(0, 255, 0, .85), rgba(0, 0, 255, .85), rgba(75, 0, 130, .85), rgba(102, 51, 153, .85)); /* Standard syntax (must be last) */
+	
+	height: auto;
+	width: auto;
+	
+	overflow-x:hidden;
+}
+
+div.main{
+	border-radius: 35px;
+	margin-top: 10px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 5%;
+	padding-top: 10 px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+    background-color: rgba(255,255,255,.7);
+	height: auto;
+}
+
+div.content{
+	font-size: 20px;
+}
+div.content a:link {
+	text-decoration: none;
+	font-weight: bold;
+	color: blue;
+}
+div.content a:visited {
+	text-decoration: none;
+	color: #000099;
+}
+div.content a:hover {
+	text-decoration: none;
+}
+div.content a:focus {
+	text-decoration: none;
+	color: #000099;
+}
+div.content a:active {
+	text-decoration: none;
+	color: #000099;
+}
+
+div.desc {
+    padding: 15px;
+	text-indent: 50px;
+    text-align: left;
+}
+
+/* Art */
+#images{
+	
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Recipes */
+div.ingredients {
+	text-indent: 10px;
+}
+
+div.instructions {
+	text-indent: 10px;
+}
+
+/* Footer */
+#footer{
+	font-size: 10px;
+    position: absolute;
+    bottom: -100px;
+    left: 22%;
+}

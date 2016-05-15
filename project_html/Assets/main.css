@@ -7,7 +7,7 @@
 	padding: 10px 0 20px 0;
 	list-style-type: none;
 	font-size: 25px;
-	border-bottom: solid black 1px;
+	border-bottom: solid black 3px;
 }
 #nav li {
 	display: inline;
@@ -65,9 +65,11 @@ div.main{
 	padding-top: 10 px;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
     background-color: rgba(255,255,255,.7);
 	height: auto;
+	
+	overflow: hidden;
 	
 	background: repeating-radial-gradient(circle, rgba(255,255,255,.75), rgba(255,255,255,.75) 10px, rgba(255,255,255,.7) 10px, rgba(255,255,255,.7) 20px);
 }
@@ -102,6 +104,11 @@ div.desc {
     text-align: left;
 }
 
+div.line {
+	border-bottom: solid black 1px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
 /* Art */
 #images{
 	
@@ -110,7 +117,7 @@ div.desc {
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
+	float: left;
     width: 180px;
 }
 
@@ -124,18 +131,24 @@ div.img img {
 }
 
 /* Recipes */
-div.ddown{
-	border-bottom: solid black 1px;
-}
-div.foodpic{
-	float: right;
-}
 div.ingredients {
+	margin-top: -15px;
 	text-indent: 10px;
 }
 
 div.instructions {
 	text-indent: 10px;
+}
+
+div.fimg  {
+	float: right;
+}
+
+div.spaghetti  {
+	float: right;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
 }
 
 /* Footer */
